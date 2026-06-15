@@ -13,10 +13,7 @@ Predicting At-Risk Student Academic Performance Using Machine Learning: A Compar
 
 ## GitHub Repository
 
-Placeholder repository link:
 https://github.com/MusbahuTijjani/COEN807_Student_Performance_ML
-
-Update this link in the report and slides if the final GitHub repository uses a different URL.
 
 ## Project Overview
 
