@@ -1,0 +1,48 @@
+{
+  "experiment": "performance_aware_with_prior_grades",
+  "include_prior_grades": true,
+  "train_size": 519,
+  "test_size": 130,
+  "feature_count_before_encoding": 32,
+  "positive_class": "At_Risk = 1 when G3 < 10",
+  "best_model": "Support_Vector_Machine",
+  "best_metrics": {
+    "experiment": "performance_aware_with_prior_grades",
+    "model": "Support_Vector_Machine",
+    "accuracy": 0.9076923076923077,
+    "balanced_accuracy": 0.884090909090909,
+    "precision_at_risk": 0.6538461538461539,
+    "recall_at_risk": 0.85,
+    "f1_at_risk": 0.7391304347826086,
+    "roc_auc": 0.9354545454545454,
+    "tn": 101,
+    "fp": 9,
+    "fn": 3,
+    "tp": 17
+  },
+  "best_params": {
+    "Dummy_Majority": {},
+    "Logistic_Regression": {
+      "model__C": 0.1,
+      "model__solver": "liblinear"
+    },
+    "Decision_Tree": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1
+    },
+    "Random_Forest": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1,
+      "model__n_estimators": 150
+    },
+    "Gradient_Boosting": {
+      "model__learning_rate": 0.03,
+      "model__max_depth": 2,
+      "model__n_estimators": 200
+    },
+    "Support_Vector_Machine": {
+      "model__C": 1.0,
+      "model__kernel": "linear"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+COEN807 TERM PROJECT SUBMISSION CHECKLIST
+
+[ ] Technical report PDF is included:
+    report/COEN807_Technical_Report.pdf
+
+[ ] Presentation slides are included:
+    slides/COEN807_Project_Presentation.pptx
+
+[ ] GitHub repository link is included in the report.
+
+[ ] GitHub repository link is included in the slides.
+
+[ ] Source code is included:
+    src/train_models.py
+    src/build_report.py
+
+[ ] Dataset or access instructions are included:
+    data/raw/student/student-por.csv
+    data/README_dataset.txt
+
+[ ] Results and visualizations are included:
+    results/
+    figures/
+
+[ ] Trained models are included:
+    models/
+
+[ ] README and requirements are included:
+    README.md
+    requirements.txt
+
+[ ] Google Drive folder permission is set to:
+    Anyone with the link can view
+
+[ ] All files open correctly before submitting the Google Drive link.

@@ -1,0 +1,10 @@
+{
+  "source": "UCI Machine Learning Repository - Student Performance dataset",
+  "records": 649,
+  "columns": 34,
+  "target": "At_Risk = 1 if G3 < 10 else 0",
+  "at_risk_count": 100,
+  "not_at_risk_count": 549,
+  "at_risk_rate": 0.15408320493066255,
+  "missing_values": 0
+}
