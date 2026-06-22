@@ -48,6 +48,7 @@ The dataset contains 649 Portuguese language course records. The processed file 
 - `results/`: CSV and JSON result summaries
 - `figures/`: generated evaluation plots
 - `models/`: saved best models
+- `notebooks/`: reproducibility notebook for dataset inspection and rerunning experiments
 - `report/`: final technical report PDF
 - `slides/`: final PowerPoint presentation
 
@@ -65,6 +66,8 @@ Optional: regenerate the report after the model outputs exist:
 ```bash
 python src/build_report.py
 ```
+
+The notebook `notebooks/COEN807_Project_Reproducibility.ipynb` provides an additional guided reproduction workflow.
 
 ## Main Results
 
@@ -87,6 +90,7 @@ Performance-aware experiment with `G1` and `G2`:
 
 Before submission:
 
+- Name the Google Drive folder `Musbahu_Tijjani_P25EGCP8009_COEN807_Project`.
 - Upload this project folder to Google Drive.
 - Set folder permission to `Anyone with the link can view`.
 - Confirm the GitHub repository is public or accessible.
