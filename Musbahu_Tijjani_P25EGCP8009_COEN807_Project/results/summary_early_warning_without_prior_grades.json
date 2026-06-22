@@ -1,0 +1,48 @@
+{
+  "experiment": "early_warning_without_prior_grades",
+  "include_prior_grades": false,
+  "train_size": 519,
+  "test_size": 130,
+  "feature_count_before_encoding": 30,
+  "positive_class": "At_Risk = 1 when G3 < 10",
+  "best_model": "Random_Forest",
+  "best_metrics": {
+    "experiment": "early_warning_without_prior_grades",
+    "model": "Random_Forest",
+    "accuracy": 0.823076923076923,
+    "balanced_accuracy": 0.8136363636363637,
+    "precision_at_risk": 0.45714285714285713,
+    "recall_at_risk": 0.8,
+    "f1_at_risk": 0.5818181818181818,
+    "roc_auc": 0.8222727272727273,
+    "tn": 91,
+    "fp": 19,
+    "fn": 4,
+    "tp": 16
+  },
+  "best_params": {
+    "Dummy_Majority": {},
+    "Logistic_Regression": {
+      "model__C": 0.1,
+      "model__solver": "liblinear"
+    },
+    "Decision_Tree": {
+      "model__max_depth": 3,
+      "model__min_samples_leaf": 5
+    },
+    "Random_Forest": {
+      "model__max_depth": 5,
+      "model__min_samples_leaf": 5,
+      "model__n_estimators": 300
+    },
+    "Gradient_Boosting": {
+      "model__learning_rate": 0.03,
+      "model__max_depth": 3,
+      "model__n_estimators": 200
+    },
+    "Support_Vector_Machine": {
+      "model__C": 0.5,
+      "model__kernel": "rbf"
+    }
+  }
+}
