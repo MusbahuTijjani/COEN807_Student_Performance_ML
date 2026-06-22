@@ -16,5 +16,4 @@ Citation:
 Cortez, P., and Silva, A. (2008). Using data mining to predict secondary school student performance.
 
 Note:
-The dataset is included here for reproducibility. If a submission platform restricts dataset upload size,
-provide the source URL above and the instructions in README.md.
+The dataset is included here for reproducibility.
